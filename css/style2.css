@@ -1,0 +1,338 @@
+
+body{
+    height: 2000px;
+}
+
+.owl-carousel .owl-stage-outer{
+    overflow-y:auto !important;
+}
+.first{
+   
+    padding: 50px 0 ;
+}
+.first .protoflio{
+    background-image: url(../img/0e99c902-b478-43c2-aa86-faec97f7fe97.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+.first .protoflio::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 100%;
+    top: 0;
+    left: -10px;
+    background-color:  rgb(248, 19, 57);;
+}
+.protoflio h4{
+    color: rgb(248, 19, 57);
+    margin-left: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.protoflio h4::after{
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 3px;
+    bottom: -9px;
+    left: 1px;
+    background-color:rgb(248, 19, 57) ;
+}
+.first .test{
+    background-image: url(../img/39375a01-5924-4a73-afc9-a121937aad7a.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.first .test::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 100%;
+    top: 0;
+    left: -10px;
+    background-color: blue;;
+}
+
+.test h4{
+    color: blue;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.popup1{
+    
+    background-color: rgba(139, 127, 127, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding:  100px ;
+    z-index: 5555;
+    display: none; 
+}
+.popup1 .i{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    
+    transform: rotate(270deg) translate(-5px,-60px);
+}
+    
+
+.popup1 .i a{
+    text-decoration:none;
+    color: #fff;
+ padding: 2px 20px;
+   
+}
+.popup1 .i .blue{
+    border: blue ;
+    background-color: blue;
+   
+}
+.popup1 .i .pink{
+    border:rgb(248, 19, 57);
+   background-color:rgb(248, 19, 57) ;
+   
+}
+.popup1 .i .col-active{
+    background-color: #fff;
+    color: #888;
+}
+.popup1 .popup-info{
+   position: absolute;
+    background-color: #fff;
+  
+    
+    z-index: 9999; 
+    width: 60%;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+}
+.popup1 .popup-first{
+    padding: 120px 50px;
+} 
+.popup1 .close
+{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.popup1 .popup-info .left{
+
+    position: relative;
+ }
+ .popup1 .popup-info .left::after{
+     position: absolute;
+     content: "";
+     width: 2px;
+     height: 100%;
+     top: 0;
+     right: 35px;
+     background-color: #888;
+ }
+ .popup1 .popup-info .left img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+ }
+ .popup1 .popup-info .left h4{
+     margin-top: 20px;
+     color: #888;
+    margin-left: 35px;
+ }
+ .popup1 li{
+     font-weight: bold;
+     font-size: 12px;
+     margin-bottom: 10px;
+ }
+ 
+ .popup1 li i{
+     font-size: 4px;
+     margin-right: 6px;
+ color: #888;
+ }
+ .popup1 .right h3{
+     text-transform: uppercase;
+     color:rgb(248, 19, 57) ;
+     font-size: 25px;
+ }
+ .popup1 .popup-two{
+     padding: 0 60px;
+    
+ }
+ .popup1 .top img{
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     margin: -60px auto 0;
+ }
+ .popup1 .top h3{
+     margin-top: 20px;
+     color: #888; 
+ }
+ .popup1  .popup-two h3{
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ .popup1  .popup-two p{
+     border: 1px solid #888;
+     padding: 15px 25px;
+     margin-bottom: 20px;
+ }
+ 
+ .popup1  .popup-two h4{
+     font-size: 20px;
+     margin-bottom: 30px;
+ }
+ .popup1 .popup-third h2{
+    color: rgb(248, 19, 57);
+ }
+ 
+ .popup1 .popup-third h3{
+     font-size: 20px;
+     color: #888;
+     margin-bottom: 10px;
+     font-weight: normal;
+ }
+ .popup1 .shuffle .aps{
+     display: none;
+ }
+ 
+ .popup1 .shuffle .active{
+    display: block;
+}
+ .popup1 .popup-fourth h3{
+     color: rgb(248, 19, 57);
+ }
+ .popup1 .popup-fourth h4{
+ 
+     font-size: 20px;
+     color: #888;
+     margin-bottom: 50px;
+     font-weight: normal;
+ }
+ .popup1 .popup-fourth img{
+     width: 80%;
+     height: 80%;
+     border-radius: 20px;
+     margin: auto;
+ }
+ 
+  .owl-carousel .owl-nav button.owl-next{
+     position: relative !important;
+     top: -350px !important;
+    right: -700px !important;
+     color: red !important;
+     font-size: 50PX;
+    
+ }
+ 
+ .popup2{
+     
+     background-color: rgba(139, 127, 127, 0.3);
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     padding:  100px ;
+     z-index: 5555;
+     display: none; 
+ }
+ .popup2 .popup-info{
+    position: absolute;
+     background-color: #fff;
+     border-radius: 20px;
+     
+     z-index: 9999; 
+     width: 60%;
+     top: 45%;
+     left: 45%;
+     transform: translate(-50%,-50%);
+     height: 80%;
+     
+ }
+ 
+ .popup2 .close2
+ {
+     position: absolute;
+     top: 10px;
+     right: 20px;
+ }
+ .popup2 .item{
+     padding: 100px;
+     text-align: center;
+     
+ }
+ .popup2 .popup-info .one{
+     width: 100px;
+     height: 200px;
+     
+     display: inline-block;
+ }
+ 
+ .popup2 .popup-info .one:not(:last-of-type){
+     
+     border-right:1px solid #888;
+     
+ }
+ 
+ .popup2 .popup-info .one span:nth-child(1)
+ 
+ {
+   position: relative; 
+ }
+ .popup2 .popup-info .one span:nth-child(1)::after{
+ 
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 1px;
+     bottom: -6px;
+     left: -3px;
+     background-color: #888;
+ }
+ .popup2 .popup-info .one span{
+     padding: 20px 0;
+     display: block;
+     font-size: 25px;
+     color: rgb(248, 19, 57);
+ }
+ .popup2 .popup-info .one span a{
+     text-decoration: none;
+     background-color: rgb(250, 244, 244);
+     padding: 5px 10px ;
+ }
+ .popup2 .popup-info .one span a.col{
+     background-color: blue;
+     color: #fff;
+     padding: 5px 10px ;
+ }
+ .popup2 .popup-info h3{
+     color: blue;
+     font-size: 20px;
+     margin-top: 60px;
+ }
+ .popup2 .popup-info button{
+     margin-top: 60px;
+     padding: 5px 10px;
+     background-color: blue;
+     color: #fff;
+     border: 0;
+ }
+ .popup1 .i 
